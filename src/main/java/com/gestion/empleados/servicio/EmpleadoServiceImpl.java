@@ -50,12 +50,6 @@ public class EmpleadoServiceImpl implements EmpleadoService {
 	}
 
 	@Override
-	public Empleado actualizar(Empleado empleado){
-		return empleadoRepository.save(empleado);
-	}
-
-
-	@Override
 	@Transactional
 	public void delete(Long id) {
 		empleadoRepository.deleteById(id);

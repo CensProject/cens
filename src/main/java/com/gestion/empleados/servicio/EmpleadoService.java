@@ -17,8 +17,6 @@ public interface EmpleadoService extends UserDetailsService {
 
 	Empleado update(Empleado empleado);
 
-	Empleado actualizar(Empleado empleado);
-
 	public List<Empleado> findAll();
 
 	public Page<Empleado> findAll(Pageable pageable);
