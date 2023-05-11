@@ -49,6 +49,11 @@ public class EmpleadoServiceImpl implements EmpleadoService {
 		return empleadoRepository.save(empleado);
 	}
 
+	@Override
+	public Empleado actualizar(Empleado empleado){
+		return empleadoRepository.save(empleado);
+	}
+
 
 	@Override
 	@Transactional
